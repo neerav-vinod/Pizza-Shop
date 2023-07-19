@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Poppins', sans-serif;
+
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px; ;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+.logo img{
+    width:70px;
+    height:50px;
+}
+
+nav ul{
+    display: inline-block;
+    list-style: none;
+
+}
+
+nav ul li{
+    display:inline-block;
+    margin: 20px;
+}
+
+
+.main h1{
+    position: absolute;
+    top:450px;
+    left: 50px;
+    font-size: 40px;
+    text-shadow: 7px 10px 9px 8px;
+}
+
+ .container
+ {
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+ }
+
+ .row{
+
+    height: 400px;
+    width: 300px;
+    margin: 40px;
+    justify-content: center;
+   
+
+ }
+
+ .homeimage{
+    background-image:url('https://assets.gqindia.com/photos/60f932bbbc55a78132763da9/16:9/pass/Hundo%20Pizza.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    opacity: 0.7;
+ }
+
+ .image{
+    height:170px;
+    background-size: cover;
+    background-color: yellowgreen;
+    justify-items: space-evenly;
+    border-radius: 30px;
+ }
+
+ .image1{
+    background-image:url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.taste.com.au%2FlSlDzlml%2Fw1200-h630-cfill%2Ftaste%2F2016%2F11%2Fitalian-meat-lovers-pizza-96466-1.jpeg&f=1&nofb=1&ipt=1a83f8aaea293abccef2f8c4384b34630d92be0231ff3972560412afd123dd34&ipo=images');
+
+ }
+
+ .image2{
+    background-image: url('https://cdn.enjoytravel.com/img/travel-news/del-popolo-has-the-best-pizza-in-san-francisco-usa.jpg');
+
+ }
+
+ .image3{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgrano.no%2Fwp-content%2Fuploads%2F2019%2F11%2FMargherita.jpeg&f=1&nofb=1&ipt=76a231b5df91cd262e799a4f3961283e432e741100a04efaeb8f6bb5ca55dd45&ipo=images');
+ }
+
+ .image4{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fslicelife.imgix.net%2F3010%2Fphotos%2Foriginal%2F5bae526f649300001cdfe949-marco_polo_1.jpg%3Fauto%3Dcompress%26auto%3Dformat&f=1&nofb=1&ipt=42f3cf5e3251b4a3cf07be3044141db262bffb36ffaf15910a1500af1dd17a3b&ipo=images');
+ }
+
+h2{
+    margin:10px;
+}
+
+p{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    border: 2px solid white;
+    color:white;
+    padding:5px;
+}
+
+.heading{
+    margin: 40px;
+    padding: 50px;
+}
+
+.heading h1{
+    text-align: center;
+}
+
+
+.container2
+{
+   width: 100%;
+   padding: 20px 0px;
+   display: flex;
+}
+
+.row2{
+
+   height:400px;
+   width:300px;
+   margin: 40px;
+   justify-content: center;
+  
+
+}
+
+.img{
+   height:170px;
+   background-size: cover;
+   background-color: yellowgreen;
+   justify-items: space-evenly;
+   border-radius: 30px;
+}
+
+.img1{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F1.bp.blogspot.com%2F-bmOXpNwdhYE%2FTfAhJxVXpHI%2FAAAAAAAAEBg%2FXx5mda5NAfM%2Fs1600%2FDSC_6323.JPG&f=1&nofb=1&ipt=4dc2aa8fbc0f198c04c94052b19836adfd64f1800c72753271ce016e4e9258d6&ipo=images');
+}
+
+.img2{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F4.bp.blogspot.com%2F-gCAJKLewvz8%2FU_iPB3cm4hI%2FAAAAAAAADCc%2FhyLz5nAgpfc%2Fs1600%2FIMG_2587.jpg&f=1&nofb=1&ipt=4a6b87dcbcafd5cd988a18e4a5f399c444d70a083f0ce4239c1cb2e83e335bb2&ipo=images.jpg');
+}
+
+.img4{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.masala.tv%2Fwp-content%2Fuploads%2F2020%2F08%2Fperi-peri-pizzaa.jpg&f=1&nofb=1&ipt=dc69ddc7c8df5b1dba6c991791659d3e707768ab5c0a3e2d92cbc4745896c60d&ipo=images');
+}
+
+.img3{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fdeusexmagicalgirl.com%2Fwp-content%2Fuploads%2F2016%2F06%2Fmaxresdefault.jpg%3Ffit%3D2592%252C1936%26ssl%3D1&f=1&nofb=1&ipt=c95992e87359bb76485203d52eb977b3fb2592852651ad34bb5cba1a3e4596a9&ipo=images');
+}
+
+.row:hover{
+
+    cursor:pointer;
+    transform: scale(1.07);
+}
+
+.row2:hover{
+
+    cursor:pointer;
+    transform: scale(1.07);
+}
+
+nav ul li:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.navbar{
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+
+.headinghome{
+    text-shadow: 7px 3px 5px black;
+}
+
+
